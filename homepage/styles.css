@@ -1,0 +1,37 @@
+nav{
+    padding: 10px;
+    background: #5866e9;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+nav ul li a:hover{
+    color: aqua;
+    background: #00000081;
+}
+header{
+    padding: 4%;
+    text-align: center;
+}
+.container{
+    padding: 5%;
+    background: #265561;
+    display: flex;
+    gap: 30px;
+
+}
+.card{
+    width: 32%;
+    height: 40vh;
+    background: #000;
+    border-radius: 7PX;
+}
